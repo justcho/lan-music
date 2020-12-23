@@ -1,0 +1,51 @@
+$color : #fff;
+$color1 :#9C9C9D;
+*{
+  margin: 0;
+  padding: 0;
+}
+#player{
+  height: 100vh;
+  background-color: $color1;
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   color: $color;
+   .lyric{
+     border: 1px solid red;
+     width: 40px;
+     height: 40px;
+   }
+   .name-author{
+
+     h6{
+     }
+     p{
+       color: $color;
+       text-align: center;
+       font-size: 5px;
+     }
+   }
+    .share{
+      border: 1px solid red;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .effect{
+    border: 1px solid red;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .effect-1{
+      background: url("../svg/");
+    }
+  }
+  .button{
+
+  }
+}
